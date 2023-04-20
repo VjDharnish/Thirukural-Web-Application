@@ -1,0 +1,174 @@
+@charset "UTF-8";
+.homeoption{
+
+background:#7b339b;
+    font-size: 1.1rem;
+   padding: 1.1rem;
+    color: #fff;
+    cursor: pointer;
+    width:100%;
+    display: block;
+    font-family: inherit;
+    border: none;
+}
+.homeoption:hover{
+	background-color:green;
+}
+h2{
+	color:#7b339b;
+	display: block;
+    font-family: inherit;
+    border: none;
+    width:100%;   
+    float:left;
+}
+html {
+	height: 100%;
+}
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background: #000;
+  background-size: 100% 100%;
+  color:#ffffff;
+}
+
+.right {
+	float:left;
+	width: 50%;
+	height:80%;
+	display: inline-flex;
+}
+
+.left {
+	float:left;
+	width: 50%;
+	height:80%;
+}
+
+.search-box{
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+.input-search{
+  height: 20px;
+  width: 200px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #FFF;
+  padding-right: 40px;
+  color:#fff;
+}
+.input-search::placeholder{
+  color:rgba(0,0,0,.5);
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.btn-search{
+  width: 70px;
+  height: 70px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color:pink;
+  margin-top:3%;
+  right: 0px;
+  color:#ffffff ;
+ text-align:center;
+ 
+  pointer-events: painted;  
+  float:left;
+}
+.btn-search:focus ~ .input-search{
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid rgba(255,255,255,.5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+.input-search:focus{
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid rgba(255,255,255,.5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+p.kuralline{
+	white-space: nowrap;
+	font-size: large;
+}
+body{
+	background-color:#0B0C10;	
+	font-family:monospace;
+}
+.btn-adhigaram{
+        width: 45px;
+    height: 40px;
+    border-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: pink;
+    margin-top: 3%;
+    right: 0px;
+    color: #ffffff;
+    text-align: center;
+    pointer-events: painted;
+    float: left;
+}
+.right-adhi{
+	text-align:left;
+	float:left;
+	width: 50%;
+	height:80%;
+	
+}
+.kuralbox input[type="submit"]{
+	border:2px solid #45a29e;
+	color: #45a29e;
+	height:100%;
+	padding:8px 20px;
+	font-size:20px;
+	margin: 0px 4px;
+	border-radius: 8px;
+	background-color: #0b0c10;
+}
+.kuralbox input[type="submit"]:hover{
+	background-color:#45a29e;
+	color:#0b0c10;
+}
+.adhino{
+	width: 50%;
+	text-align:center;
+}
+.kuralno{
+	    width: 300px;
+    height: 35px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+.right{
+	display:flex;
+	flex-direction:row;
+	
+}
+.form{
+	    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: baseline;
+}
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ThirukuralApplicationDynamic</display-name>
+  <welcome-file-list>
+    <welcome-file>ThirukuralView.jsp</welcome-file>
+    
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>home</servlet-name>
+  	<servlet-class>com.dharun.thirukural.ThirukuralView</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>home</servlet-name>
+  	<url-pattern>/homepage</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>NumberSearchController</servlet-name>
+  	<servlet-class>com.dharun.thirukural.thirukuralbynumber.NumberSearchController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>NumberSearchController</servlet-name>
+  	<url-pattern>/NumberSearchController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Adhigaram</servlet-name>
+  <servlet-class>com.dharun.thirukural.thirukuralbyadhigaram.AdhigaramController</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Adhigaram</servlet-name>
+  <url-pattern>/Adhigaram</url-pattern>
+  
+  </servlet-mapping>
+  
+  
+</web-app>
